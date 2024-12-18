@@ -30,10 +30,7 @@ jobs:
         run: echo "This is printed by test.yml in line 30"
 
       -  name: print error wali line
-         run: echo "this is error wali line"
+         run: ech "this is error wali line"
 
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+     
+     
